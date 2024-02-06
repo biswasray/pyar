@@ -1,0 +1,5 @@
+fastapi
+mediapipe
+imageio
+cv2
+uvicorn
