@@ -107,6 +107,6 @@ async def upload_file(files: List[UploadFile] = File(...)):
     
     return uploaded_files
 if __name__=="__main__":
-    config = uvicorn.Config("main:app", port=5000, log_level="info")
+    config = uvicorn.Config("main:app", host="0.0.0.0", port=5000, log_level="info")
     server = uvicorn.Server(config)
     server.run()  
