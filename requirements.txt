@@ -1,5 +1,6 @@
 fastapi
 mediapipe
 imageio
-cv2
+opencv-python
 uvicorn
+python-multipart
